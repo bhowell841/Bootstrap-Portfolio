@@ -1,6 +1,8 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin-bottom: 80px;
+    background-image: url(../assets/images/circuit.png);
+
 }
 
 html {
@@ -51,11 +53,12 @@ h2 {
 .row {
     max-width: 100%;
     margin: auto;
-    background: url(/assets/images/circuit.png);
 }
 .main {
-    width: 960px;
-    border: solid 2px red;
+    width: 100%;
+    border: solid 2px #ccc;
+    margin-top: 15px;
+    background-color: #ffffff;
 }
 
 /* portfolio */
