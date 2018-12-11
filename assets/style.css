@@ -42,16 +42,55 @@ h2 {
     border-bottom: solid 3px #ccc;   
 }
 
-img {
+.profile {
     float: left;
-    border-right: 15px;
+    border: solid 1px #ccc;
+    margin: 10px;
 }
 
 .row {
-    max-width: 960px;
+    max-width: 100%;
     margin: auto;
+    background: url(/assets/images/circuit.png);
+}
+.main {
+    width: 960px;
+    border: solid 2px red;
+}
 
-    background-image: url(/assets/images/circuit.png);
+/* portfolio */
+.column-md-4 {
+    margin: 15px;  
+    border-bottom: 2px solid #eeeeee;  
+}
+
+.portfolio {
+    position: relative;
+    text-align: center;
+    color: white;
+    border: solid 1px #ccc;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 22px;
+}
+ 
+/* Form */
+form{
+    padding: 10px;
+    margin: 10px;
 }
 
 /* CSS for the footer */
