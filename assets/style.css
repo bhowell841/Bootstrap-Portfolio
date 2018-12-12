@@ -20,7 +20,8 @@ html {
   }
 
 .navbar {
-  max-width: 960px;
+  /* max-width: 960px; */
+    width: 100%;
     margin: auto;
 }
 
@@ -50,12 +51,12 @@ h2 {
     margin: 10px;
 }
 
-.row {
-    max-width: 100%;
-    margin: auto;
+p{
+    margin: 10px;
 }
+
 .main {
-    width: 100%;
+    width: 960px;
     border: solid 2px #ccc;
     margin-top: 15px;
     background-color: #ffffff;
