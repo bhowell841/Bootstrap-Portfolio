@@ -4,11 +4,16 @@ body {
     background-image: url(../assets/images/circuit.png);
 
 }
-
 html {
     position: relative;
     min-height: 100%;
   }
+
+header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
 
 #logo {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -20,7 +25,7 @@ html {
   }
 
 .navbar {
-  /* max-width: 960px; */
+    max-width: 960px;
     width: 100%;
     margin: auto;
 }
@@ -98,12 +103,13 @@ form{
 }
 
 /* CSS for the footer */
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    margin: 0px;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     background-color: #666666;
     border-top: solid 5px #4aaaa5;
 }
